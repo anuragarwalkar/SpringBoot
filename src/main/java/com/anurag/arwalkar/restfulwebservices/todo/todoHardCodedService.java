@@ -13,26 +13,26 @@ public class todoHardCodedService {
 	
 	static {
 		todos.add(new Todo(idCounter,"aarwalka",
-				"want to learn spring boot",new Date(), false));
+				"want to learn spring boot",true,new Date()));
 		
 //		todos.add(new Todo(++idCounter,"praju",
-//				"want to learn and master MBA",new Date(), false));
+//				"want to learn and master MBA",new Date(),"false"));
 //
 //		
 //		todos.add(new Todo(++idCounter,"nilesh",
-//				"want to learn a car and mba",new Date(), false));
+//				"want to learn a car and mba",new Date(),"false"));
 //		
 //		todos.add(new Todo(++idCounter,"swapnil",
-//				"want to learn a car and mba",new Date(), false));
+//				"want to learn a car and mba",new Date(),"false"));
 //		
 //		todos.add(new Todo(++idCounter,"dagdu",
-//				"want to learn a car and mba",new Date(), false));
+//				"want to learn a car and mba",new Date(),"false"));
 //		
 //		todos.add(new Todo(++idCounter,"praju",
-//				"want to learn a car and mba",new Date(), false));
+//				"want to learn a car and mba",new Date(),"false"));
 //		
 //		todos.add(new Todo(++idCounter,"mansi",
-//				"want to learn a car and mba",new Date(), false));
+//				"want to learn a car and mba",new Date(),"false"));
 
 	}
 	

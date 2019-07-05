@@ -1,4 +1,4 @@
-package com.anurag.arwalkar.restfulwebservices.basic.auth;
+package com.anurag.arwalkar.basic.auth;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;

@@ -7,7 +7,7 @@ public class Todo {
 	private String username;
 	private String description;
 	private Date targetDate;
-	private boolean isDone;
+	private Boolean isDone;
 	
 	protected Todo() {
 		
@@ -15,7 +15,7 @@ public class Todo {
 
 	public Todo(long id, String username, 
 			String description, 
-			Date targetDate, boolean isDone) {
+			Boolean isDone, Date targetDate ) {
 		super();
 		this.id = id;
 		this.username = username;
@@ -56,11 +56,12 @@ public class Todo {
 		this.targetDate = targetDate;
 	}
 
-	public boolean isDone() {
+
+	public Boolean getIsDone() {
 		return isDone;
 	}
 
-	public void setDone(boolean isDone) {
+	public void setIsDone(Boolean isDone) {
 		this.isDone = isDone;
 	}
 
@@ -71,6 +72,8 @@ public class Todo {
 		result = prime * result + (int) (id ^ (id >>> 32));
 		return result;
 	}
+
+	
 
 	@Override
 	public boolean equals(Object obj) {

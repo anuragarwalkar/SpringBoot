@@ -1,4 +1,4 @@
-package com.anurag.arwalkar.restfulwebservices.basic.auth;
+package com.anurag.arwalkar.basic.auth;
 
 public class AuthenticationBean {
 
