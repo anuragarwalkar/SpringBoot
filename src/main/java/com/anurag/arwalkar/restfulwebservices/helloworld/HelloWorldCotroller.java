@@ -9,6 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldCotroller {
 	
+	@GetMapping(path= "/")
+	public String applicationStart() {
+		return "Hello Anurag Arwalkar, Spring has been started";
+	}
+	
 	@GetMapping(path= "/anurag")
 	public String helloWorld() {
 		return "Hello Anurag Arwalkar";
