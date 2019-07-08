@@ -11,6 +11,7 @@ public class todoHardCodedService {
 	private static List<Todo> todos = new ArrayList<Todo>();
 	private static int idCounter = 0;
 	
+
 	static {
 		todos.add(new Todo(idCounter,"aarwalka",
 				"want to learn spring boot",true,new Date()));
@@ -48,7 +49,8 @@ public class todoHardCodedService {
 		};
 		
 		if(todos.remove(todo)){
-			return todo;			
+			return todo;
+			
 		};
 		
 		return null;
@@ -71,6 +73,7 @@ public class todoHardCodedService {
 		}else {
 			deleteByID(todo.getId());
 			todos.add(todo);
+			
 		}
 		
 		return todo;
